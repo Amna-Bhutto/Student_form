@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>STUDENT REGISTRATION</title>
+<style>
+body{
+    color:white;
+    display:flex;
+    flex-direction:column; 
+    align-items: center;
+   
+}
+form{
+     background-color:#6a5acd;
+     width: 50%;
+     padding: 25px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     row-gap: 20px;     
+}
+.form-footer{
+            display:flex;
+            justify-content:center;
+            gap:10px;
+            grid-column: 1 / span 2;
+}
+h1{color:#6a5acd; text-decoration:underline;}
+.text-center{
+              text-align:center;
+}
+</style>
+</head>
+<body>
+<h1 align="center">STUDENT REGISTRATION FORM</h1>
+<form>
+     <label>First Name:</label> 
+     <div>
+         <input type="text">(max 30 character a-z and A-Z)
+     </div>
+     <label>Last Name:</label>
+     <div>
+         <input type="text">(max 30 character a-z and A-Z)
+    </div>
+    
+    <label>Date Of Birth:</label>
+    <div> 
+    <select>
+    <option>Day</option>
+    <option>Monday</option>
+    <option>Tuesday</option>
+    <option>Wednesday</option>
+    <option>Thursday</option>
+    <option>Friday</option>
+    <option>Saturday</option>
+    <option >Sunday</option>
+    </select>
+    <select>
+    <option>Month</option>
+    <option>January</option>
+    <option>February</option>
+    <option>March</option>
+    <option>April</option>
+    <option>May</option>
+    <option>June</option>
+    <option>July</option>
+    <option>August</option>
+    <option>September</option>
+    <option>October</option>
+    <option>November</option>
+    <option>December</option>
+    </select>
+   <select>
+  <option>Year</option>
+  <option>2000</option>
+  <option>2001</option>
+  <option>2002</option>
+  <option>2003</option>
+  <option>2004</option>
+  <option>2005</option>
+  <option>2006</option>
+  <option>2007</option>
+  <option>2008</option>
+  <option>2009</option>
+  <option>2010</option><
+  <option>2011</option>
+  <option>2012</option>
+  <option>2013</option>
+  <option>2014</option>
+  <option>2015</option>
+  <option>2016</option>
+  <option>2017</option>
+  <option>2018</option>
+  <option>2019</option>
+  <option>2020</option>
+  <option>2021</option>
+  <option>2022</option>
+  <option>2023</option>
+  <option>2024</option>
+  </select>
+</div>
+
+     <label>Email:</label> <div><input type="email"></div>
+     <label>Mobile:</label> <div><input type="number">(10 digit number)</div>
+     <label>Gender:</label> <div><input type="radio" name="gender">Male<input type="radio" name="gender">Female</div>
+     <label>Address:</label> <div><textarea name="message" rows="5" cols="50"></textarea></div>
+     <label>City:</label> <div><input type="text" name="firstname"> (max 30 characters a-z and A-Z)</div>
+     <label>Pin Code:</label> <div><input type="password"></div>
+     <label>State:</label> <div><input type="text"></div>
+     <label>Country:</label> <div><input type="text"></div>
+     <label>Hobbies:</label> <div>Drawing <input type="checkbox">Singing <input type="checkbox">Dancing <input type="checkbox">Sketching <input type="checkbox">Others <input type="checkbox"></div>
+     <label>Qualification:</label></div>
+    
+
+    <div>
+    <table>
+    <TR>
+    <TH> S.NO </TH>
+    <TH>EXAMINATION</TH>
+    <TH>BOARD</TH>
+    <TH>PERCENTAGE</TH>
+    <TH>YEAR OF PASSING</TH>
+    </TR>
+    <TR>
+    <TD>1</TD>
+    <TD>Class X</TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    </TR>
+    <TR>
+    <TD>2</TD>
+    <TD>Class XII</TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    </TR>
+    <TR>
+    <TD>3</TD>
+    <TD>Graduation</TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    </TR>
+    <TR>
+    <TD>4</TD>
+    <TD> Master</TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    <TD><input type="text"></TD>
+    </TR>
+    <TR>
+    <TD></TD>
+    <TD></TD>
+    <TD class="text-center" >(10 char max)</TD>
+    <TD class="text-center" >(upto 2 decimal)</TD>
+    <TD></TD>
+    </TR>
+    </table>
+    </div>
+        <label>Courses:Applied For</label> <div> BCA<input type="radio" name="course">B.Com<input type="radio" name="course">B.Sc<input type="radio"name="course">B.A<input type="radio" name="course"></div>
+    
+
+    <div class="form-footer">
+    <input type="submit">
+    <input type="Reset">
+    </div>
+</form>
+</body>
+
+</html>
+
